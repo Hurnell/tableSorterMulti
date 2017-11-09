@@ -1,6 +1,10 @@
 # tableSorterMulti
 tableSorterMulti is a jQuery plugin that allows an html table to be sorted by clicking on its header cells. Multiple columns can be sorted in order.
 ![ScreenShot](img/read-me/screenshot-one.png)
+- the first level of sorting is cat one (ascending) 
+- the second level of sorting is cat one (descending) 
+- the third level of sorting is CI (case insensitive)(ascending)
+
 ## Prepare the html table 
 - Add 'sorter-header' class to table header row (tr) and classes: 'no-sort', 'is-date', 'is-number' and 'case-sensitive' to the header cells (th) to indicate how to sort the columns. Case insensitive is the default. 
 - Note that you cannot use your own classes that have names with 'sort-' in the header cells (th) since these classes will be removed by the plugin.
