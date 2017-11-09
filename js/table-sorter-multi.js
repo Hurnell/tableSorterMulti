@@ -200,8 +200,8 @@
             rtn = d.getTime(); //returns NaN for invalid dates
         } else if (type === 'numeric') {
             var i = 0;
-            rtn = parseFloat(val.replace(/[\.\D\%]/g, function (match) {
-                return match === "." ? (i++ === 0 ? '.' : '') : '';
+            rtn = parseFloat(val.replace(/[\.\D\%]/g, function (match) { // swap comma for decimal point here
+                return match === "." ? (i++ === 0 ? '.' : '') : ''; // and here (twice) to use comma as decimal seperator
             }));
         } else if ('caseSensitive' === type) {
             rtn = assignNumberToString(val);
