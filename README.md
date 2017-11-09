@@ -55,3 +55,7 @@ tableSorterMulti is a jQuery plugin that allows an html table to be sorted by cl
     <td> ....
 
 ```
+
+## Additional Functionality
+
+- A table row will be highlighted by clicking on that row (clicking on the same row will remove the highlight)
